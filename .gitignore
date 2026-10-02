@@ -1,0 +1,26 @@
+# data, caches and model weights
+/data/
+*.npz
+*.npy
+*.pt
+*.pth
+*.safetensors
+# experiment outputs
+/results/
+/checks/
+/mia_check/
+/logs/
+*.csv
+*.log
+# generated figures and tables
+paper/figures/
+/tables.txt
+# Python and tooling
+__pycache__/
+*.py[cod]
+.venv*/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+.claude/
